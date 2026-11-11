@@ -3634,6 +3634,16 @@
 		)
 		(uuid "6b557589-97e6-47f4-b217-59305bb16430")
 	)
+	(text "Change CE1 to 21 ; CE2 to 13"
+		(exclude_from_sim no)
+		(at 48.514 135.636 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7fbafb8b-00e4-48e6-ab93-53ba74b0bed6")
+	)
 	(text "NRF24L01+PA+LNA Modules"
 		(exclude_from_sim no)
 		(at 191.262 96.266 0)
@@ -4832,16 +4842,6 @@
 		)
 		(uuid "4fbb6c17-c699-4d5a-b5f9-a5e7913a0453")
 	)
-	(label "CE2"
-		(at 106.68 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e30e7d5-21ba-4fb9-9cdb-52589da5166c")
-	)
 	(label "MOSI"
 		(at 157.48 86.36 0)
 		(effects
@@ -4912,6 +4912,16 @@
 		)
 		(uuid "b3057725-94ca-4d3e-9d31-c3929fc00a8a")
 	)
+	(label "CE1"
+		(at 106.68 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5bd9d7d-7223-43d6-be45-0268da595444")
+	)
 	(label "GPIO25"
 		(at 217.17 82.55 180)
 		(effects
@@ -4922,16 +4932,6 @@
 		)
 		(uuid "da96d175-e705-457d-9c6a-f0784da60683")
 	)
-	(label "CE1"
-		(at 106.68 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e0fc3b37-44cb-4995-8fc4-c4a2f131deae")
-	)
 	(label "MISO"
 		(at 173.99 88.9 180)
 		(effects
@@ -4941,6 +4941,16 @@
 			(justify right bottom)
 		)
 		(uuid "e3a8ecc5-dd63-47c9-9c2f-0bacb3c59dc9")
+	)
+	(label "CE2"
+		(at 106.68 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e873e1b6-7f23-4d11-b2e1-baf300e8c49c")
 	)
 	(label "SCK"
 		(at 106.68 81.28 0)
